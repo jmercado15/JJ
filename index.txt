@@ -11,3 +11,18 @@ Versión 1
 en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
 archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
 
+
+Versión 2
+
+Principales comandos:
+	git version - revisar la versión instalada
+	git init - crear el working directory (Una vez por proyecto)
+	git status - Revisa el estatus general del directorio
+	git add [archivo, ., --all] - Se agregan los archivos al área local
+	git commit -m "mensaje" - Guarda el archivo en el respositorio local
+	git config --global user.email "juan.morales@netlogistik.com" - Agregar tu usuario
+	git log --oneline - Un histórico de los commit realizados
+	git reset --hard [Archivo id] - Regresa a un commit seleccionado
+	git remote add origin https://github.com/jmercado15/JJ.git - agregar de manera remota al repositorio (Una vez por proyecto)
+	git push -u origin master - Para cargar los archivos a la nube (Una vez por proyecto)
+	git push - Cuando ya se haya realizado el comando anterior
