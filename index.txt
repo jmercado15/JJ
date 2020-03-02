@@ -9,8 +9,15 @@ Versión 1.0
 
 			¿Qué es git? 
 	Es un software de control de versiones, su propósito es llevar registro de los cambios
-en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
-archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
+	en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
+	archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
+
+			Ciclo GIT
+	Work directory - Es dónde se crea el poryecto y sus archivos de manera local.
+	Staging area - Es dónde se registran los archivos tempralmente en el local.
+	Local repo - Se agrega el proyecto en el repositorio local y queda listo para enviarlo a la nube.
+	Remote repo - Aquí se mantiene el proyecto en la nube, lista para poder ser descargada desde cualquier lugar
+		con acceso al repo.
 
 
 Principales comandos:
@@ -38,3 +45,7 @@ Comandos para Branch:
 	git branch [nombreRama] - Se crea una nueva rama
 	git checkout [nombreRama] - Se ingresa a la rama
 	git branch - Saber en que rama estámos y cuales exísten
+	
+Comandos Merge
+	git merge [rama] - Unión de todos los archivos con la rama master
+	git branch -d [rama] - Eliminar una rama
