@@ -33,3 +33,8 @@ Comandos para TAGS:
 	git pull - Para actualizar los documentos creados en la rama master a la rama local
 	git tag v1.0 -m "v1.0" - Creación tag de versionamiento al proyecto
 	git push --tags - Se carga el proyecto al tag
+	
+Comandos para Branch: 
+	git branch [nombreRama] - Se crea una nueva rama
+	git checkout [nombreRama] - Se ingresa a la rama
+	git branch - Saber en que rama estámos y cuales exísten
