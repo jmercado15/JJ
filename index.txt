@@ -5,14 +5,13 @@ CREADO POR JUAN JOSÉ MERCADO MORALES
 3.	Documento con los principales comandos de git
 
 
-Versión 1
+Versión 1.0
+
 			¿Qué es git? 
 	Es un software de control de versiones, su propósito es llevar registro de los cambios
 en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
 archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
 
-
-Versión 2
 
 Principales comandos:
 	git version - revisar la versión instalada
@@ -26,3 +25,11 @@ Principales comandos:
 	git remote add origin https://github.com/jmercado15/JJ.git - agregar de manera remota al repositorio (Una vez por proyecto)
 	git push -u origin master - Para cargar los archivos a la nube (Una vez por proyecto)
 	git push - Cuando ya se haya realizado el comando anterior
+
+
+Versión 1.1
+
+Comandos para TAGS:
+	git pull - Para actualizar los documentos creados en la rama master a la rama local
+	git tag v1.0 -m "v1.0" - Creación tag de versionamiento al proyecto
+	git push --tags - Se carga el proyecto al tag
