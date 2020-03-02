@@ -1,0 +1,15 @@
+CREADO POR JUAN JOSÉ MERCADO MORALES
+
+1.	Repositorio en github personal, mínimo 3 ramas 
+2.	Documento explicando el ciclo de git (working área – staging área – git directory)
+3.	Documento con los principales comandos de git
+
+
+Versión 1
+			¿Qué es git? 
+	Es un software de control de versiones, su propósito es llevar registro de los cambios
+en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
+archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
+
+
+Versión 2
