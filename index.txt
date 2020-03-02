@@ -11,5 +11,3 @@ Versión 1
 en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
 archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
 
-
-Versión 2
