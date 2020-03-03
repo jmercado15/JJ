@@ -1,4 +1,4 @@
-CREADO POR JUAN JOSÉ MERCADO MORALES
+CREADO POR JUAN JOSÉ MERCADO MORALES    *** RAMA branchJJ2 ***
 
 1.	Repositorio en github personal, mínimo 3 ramas 
 2.	Documento explicando el ciclo de git (working área – staging área – git directory)
@@ -9,8 +9,15 @@ Versión 1.0
 
 			¿Qué es git? 
 	Es un software de control de versiones, su propósito es llevar registro de los cambios
-en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
-archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
+	en archivos de computadora y coordinar el trabajo que varias personas realizan sobre 
+	archivos compartidos. Existe la posibilidad de trabajar de forma remota y una opción es GitHub.
+
+			Ciclo GIT
+	Work directory - Es dónde se crea el poryecto y sus archivos de manera local.
+	Staging area - Es dónde se registran los archivos tempralmente en el local.
+	Local repo - Se agrega el proyecto en el repositorio local y queda listo para enviarlo a la nube.
+	Remote repo - Aquí se mantiene el proyecto en la nube, lista para poder ser descargada desde cualquier lugar
+		con acceso al repo.
 
 
 Principales comandos:
@@ -33,3 +40,12 @@ Comandos para TAGS:
 	git pull - Para actualizar los documentos creados en la rama master a la rama local
 	git tag v1.0 -m "v1.0" - Creación tag de versionamiento al proyecto
 	git push --tags - Se carga el proyecto al tag
+	
+Comandos para Branch: 
+	git branch [nombreRama] - Se crea una nueva rama
+	git checkout [nombreRama] - Se ingresa a la rama
+	git branch - Saber en que rama estámos y cuales exísten
+	
+Comandos Merge
+	git merge [rama] - Unión de todos los archivos con la rama master
+	git branch -d [rama] - Eliminar una rama
