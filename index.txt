@@ -1,4 +1,4 @@
-CREADO POR JUAN JOSÉ MERCADO MORALES
+CREADO POR JUAN JOSÉ MERCADO MORALES 			*** RAMA branchJJ1 ***
 
 1.	Repositorio en github personal, mínimo 3 ramas 
 2.	Documento explicando el ciclo de git (working área – staging área – git directory)
@@ -38,3 +38,4 @@ Comandos para Branch:
 	git branch [nombreRama] - Se crea una nueva rama
 	git checkout [nombreRama] - Se ingresa a la rama
 	git branch - Saber en que rama estámos y cuales exísten
+
